@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="<?= base_url(); ?>public/css/home/section8.css">
     <link rel="stylesheet" href="<?= base_url(); ?>public/css/home/section9.css">
     <link rel="stylesheet" href="<?= base_url(); ?>public/css/home/section10.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>public/css/home/section11.css">
     <link rel="stylesheet" href="<?= base_url(); ?>public/css/home/footer.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   

@@ -502,7 +502,7 @@
         </div>
     </div>
 </section>
-
+<hr class="section-divider">
 <section class="superstar-teacher">
     <div class="container">
         <!-- Heading -->
@@ -588,6 +588,186 @@
         </div>
     </div>
 </section>
+<hr class="section-divider">
+<section class="superstar-student">
+    <div class="student-projects">
+        <div class="heading-section">
+            <h2>Amazing projects created by our students from across the globe</h2>
+            <img src="<?= base_url(); ?>public/assets/landImg/19.webp" alt="Project image" class="heading-image">
+        </div>
+        <div class="extra-images">
+            <img src="<?= base_url(); ?>public/assets/landImg/cd8.webp" alt="Extra Image 1" class="extra-image1">
+            <img src="<?= base_url(); ?>public/assets/landImg/cd7.webp" alt="Extra Image 2" class="extra-image2">
+        </div>
+
+
+        <div class="card-container">
+            <!-- Student Card 1 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd3.webp" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>John Doe</h3>
+                        <p>New York, USA</p>
+                        <p>Grade A</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/38.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+
+            <!-- Student Card 2 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd4.webp" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>Jane Smith</h3>
+                        <p>London, UK</p>
+                        <p>Grade B</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/34.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+
+            <!-- Student Card 3 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd5.png" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>Michael Brown</h3>
+                        <p>Toronto, Canada</p>
+                        <p>Grade A+</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/41.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+
+            <!-- Student Card 4 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd3.webp" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>Emily Davis</h3>
+                        <p>Sydney, Australia</p>
+                        <p>Grade B+</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/33.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+
+            <!-- Student Card 5 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd5.png" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>Sarah Wilson</h3>
+                        <p>Paris, France</p>
+                        <p>Grade A</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/34.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+
+            <!-- Student Card 6 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd4.webp" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>David Lee</h3>
+                        <p>Tokyo, Japan</p>
+                        <p>Grade A</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/35.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+
+            <!-- Student Card 7 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd3.webp" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>Anna Garcia</h3>
+                        <p>Madrid, Spain</p>
+                        <p>Grade A</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/37.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+
+            <!-- Student Card 8 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd5.png" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>James Carter</h3>
+                        <p>Berlin, Germany</p>
+                        <p>Grade B+</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/38.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+
+            <!-- Student Card 9 -->
+            <div class="student-card">
+                <div class="student-info">
+                    <div class="student-image">
+                        <img src="<?= base_url(); ?>public/assets/landImg/cd4.webp" alt="Student">
+                    </div>
+                    <div class="student-details">
+                        <h3>Linda Roberts</h3>
+                        <p>Rome, Italy</p>
+                        <p>Grade A</p>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="<?= base_url(); ?>public/assets/landImg/41.webp" alt="Project">
+                </div>
+                <button class="explore-btn">Explore Project</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="section-divider">
 
 
 <?php include 'footer.php'; ?>
