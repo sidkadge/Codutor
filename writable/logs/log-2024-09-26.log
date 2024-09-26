@@ -1,0 +1,672 @@
+INFO - 2024-09-26 08:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 08:57:03 --> Error: Class "App\Models\AdminModel" not found
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 208.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 08:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 08:57:48 --> ErrorException: Undefined array key "sessiondata"
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 252.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sessiondata"', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 252)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 08:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 08:59:54 --> ErrorException: Undefined array key "sessiondata"
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 245.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sessiondata"', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 245)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:00:48 --> ErrorException: Undefined global variable $_SESSION
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 APPPATH\Controllers\AdminController.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\Codutor\\app\\Controllers\\AdminController.php', 10)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:06:37 --> ErrorException: Undefined array key "sessiondata"
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 259.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sessiondata"', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 259)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:07:00 --> ErrorException: Undefined variable $access_levels
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 279.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(279): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $access_levels', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 279)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:07:12 --> ParseError: Unmatched '}'
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 1271.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:07:12 --> ParseError: Unmatched '}'
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 1271.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:07:32 --> ErrorException: Undefined variable $access_levels
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 293.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(293): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $access_levels', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 293)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:08:18 --> ErrorException: Undefined variable $access_levels
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 306.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(306): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $access_levels', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 306)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:13:50 --> ErrorException: Undefined variable $counteing
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 533.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(533): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $counteing', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 533)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:14:28 --> ErrorException: Undefined variable $counteing
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 533.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(533): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $counteing', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 533)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:14:58 --> ErrorException: Undefined array key "sessiondata"
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 856.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(856): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sessiondata"', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 856)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:15:15 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 856.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:15:25 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 122.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:15:25 --> [Caused by] ErrorException: Undefined variable $alldemolist
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 122.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alldemolist', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 122)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:16:08 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 221.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:16:08 --> [Caused by] ErrorException: Undefined variable $UnattendedDemoList
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 221.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UnattendedDemoList', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 221)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:16:46 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 231.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:16:46 --> [Caused by] ErrorException: Undefined variable $PendingDemo
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 231.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PendingDemo', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 231)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:17:09 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 238.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:17:09 --> [Caused by] ErrorException: Undefined variable $ConductedDemo
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 238.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConductedDemo', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 238)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:17:20 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 247.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:17:20 --> [Caused by] ErrorException: Undefined variable $alldemolist
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 247.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alldemolist', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 247)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:17:31 --> TypeError: usort(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 323.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(323): usort(null, Object(Closure))
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:33:45 --> TypeError: usort(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 323.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(323): usort(null, Object(Closure))
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:34:14 --> TypeError: usort(): Argument #1 ($array) must be of type array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 465.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(465): usort(null, Object(Closure))
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:34:38 --> ErrorException: Undefined variable $count
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 578.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(578): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $count', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 578)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:34:58 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 581.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:34:58 --> [Caused by] ErrorException: Undefined variable $ConductedDemo
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 581.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(581): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConductedDemo', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 581)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:35:16 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 640.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:35:16 --> [Caused by] ErrorException: Undefined variable $ConductedDemo
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 640.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(640): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConductedDemo', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 640)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:35:56 --> ErrorException: Undefined variable $ConductedDemo
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 641.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(641): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConductedDemo', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 641)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:36:17 --> ErrorException: Undefined variable $ConductedDemo
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 641.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(641): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConductedDemo', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 641)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:37:55 --> ErrorException: Undefined variable $ConductedDemo
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 641.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(641): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ConductedDemo', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 641)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:38:13 --> ErrorException: Undefined variable $students
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 670.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(670): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $students', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 670)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 09:55:42 --> ParseError: Unmatched ')'
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 641.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 3 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:57:48 --> Error: Class "App\Models\AdminModel" not found
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 208.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:57:49 --> Error: Class "App\Models\AdminModel" not found
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 208.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 09:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 09:58:13 --> ErrorException: Undefined array key "sessiondata"
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 252.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sessiondata"', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 252)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 10:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 10:19:13 --> ErrorException: Undefined array key "sessiondata"
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminSideBar.php on line 252.
+ 1 APPPATH\Views\AdminSideBar\AdminSideBar.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sessiondata"', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php', 252)
+ 2 APPPATH\Views\AdminSideBar\AdminDashboard.php(1): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminSideBar.php')
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-26 10:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-26 10:19:42 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 122.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 4 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 10:19:42 --> [Caused by] ErrorException: Undefined variable $alldemolist
+in APPPATH\Views\AdminSideBar\AdminDashboard.php on line 122.
+ 1 APPPATH\Views\AdminSideBar\AdminDashboard.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alldemolist', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php', 122)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\AdminSideBar\\AdminDashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 5 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 10:20:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AdminSideBar/AdminDashboard.php"
+[Method: GET, Route: AdminDashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminSideBar/AdminDashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/AdminDashboard', [], true)
+ 3 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/AdminDashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 11:29:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "AdminSideBar/admindashboard.php"
+[Method: GET, Route: AdminDashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('AdminSideBar/admindashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('AdminSideBar/admindashboard', [], true)
+ 3 APPPATH\Controllers\AdminController.php(10): view('AdminSideBar/admindashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 11:30:08 --> ErrorException: include(Admin/header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\Admin\admindashboard.php on line 1.
+ 1 APPPATH\Views\Admin\admindashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Admin/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\Admin\\admindashboard.php', 1)
+ 2 APPPATH\Views\Admin\admindashboard.php(1): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\Admin\\admindashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/admindashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('Admin/admindashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-26 11:30:46 --> ErrorException: include(Admin/header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: AdminDashboard]
+in APPPATH\Views\Admin\admindashboard.php on line 1.
+ 1 APPPATH\Views\Admin\admindashboard.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Admin/header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Codutor\\app\\Views\\Admin\\admindashboard.php', 1)
+ 2 APPPATH\Views\Admin\admindashboard.php(1): include()
+ 3 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Codutor\\app\\Views\\Admin\\admindashboard.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Admin/admindashboard', [], true)
+ 6 APPPATH\Controllers\AdminController.php(10): view('Admin/admindashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->AdminDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
