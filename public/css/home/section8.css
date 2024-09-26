@@ -1,0 +1,80 @@
+.codutor-surveys {
+    background-color: #000000; /* Light background for the surveys section */
+    padding: 50px 0; /* Padding for the section */
+    text-align: center; /* Center align text */
+}
+
+.codutor-surveys h2 {
+    color: #e3b9b9; /* Title color */
+    margin-bottom: 20px; /* Space below title */
+    font-size: 36px; /* Title size */
+}
+
+.sub-header {
+    color: #e3b9b9; /* Sub-header color */
+    margin-bottom: 40px; /* Space below sub-header */
+    font-size: 18px; /* Sub-header size */
+}
+
+.surveys-row {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between boxes */
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.survey-item {
+    flex: 1 1 22%; /* Flex-grow, flex-shrink, and base width */
+    max-width: 160px; /* Max width for each box */
+    margin: 10px; /* Margin around each box */
+}
+
+.survey-box {
+    background: linear-gradient(45deg, #f06595, #ff6b6b, #cbce35);
+    border-radius: 10px; /* Rounded corners */
+    width: 160px; /* Set width to 160px */
+    height: 160px; /* Set height to 160px */
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
+    text-align: center; /* Center text */
+    display: flex; /* Use flex to align content */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.icon {
+    margin-bottom: 10px; /* Space below icon */
+}
+
+.icon img {
+    width: 80px; /* Adjust width as necessary */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+}
+
+.survey-text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.button-container {
+    text-align: center; /* Center the button */
+    margin-top: 30px; /* Space above the button */
+}
+
+.gradient-button {
+    display: inline-block; /* Make the button inline */
+    padding: 10px 50px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color */
+    font-size: 25px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    background: linear-gradient(45deg, #f06595, #ff6b6b, #cbce35); /* Gradient colors */
+    transition: background 0.3s ease; /* Smooth transition */
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, #f06595, #ff6b6b, #cbce35);
+}

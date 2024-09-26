@@ -1,0 +1,56 @@
+.get-started {
+    background-color: #282828;
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.steps {
+    display: flex;
+    justify-content: center; /* Center the steps */
+    flex-wrap: wrap; /* Allows wrapping if the screen is small */
+}
+
+.step {
+    flex: 1 1 150px; /* Adjusts base width for better spacing */
+    margin: 20px; /* Space between steps */
+    color: white; /* Text color */
+    max-width: 200px; /* Prevents too wide of a step */
+}
+
+.circle {
+    width: 120px; /* Circle size */
+    height: 120px; /* Circle size */
+    background-color: #128C7E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px; /* Centering and space below */
+}
+
+.icon {
+    font-size: 40px; /* Increased icon size */
+    color: rgb(5, 5, 5); /* Icon color */
+}
+
+h2 {
+    color: white;
+    margin-bottom: 40px; /* Space below the main title */
+    font-size: 36px; /* Increased main title size */
+}
+
+h3 {
+    margin: 10px 0; /* Space around step titles */
+    font-size: 22px; /* Increased step title size */
+}
+
+p {
+    font-size: 16px; /* Increased description text size */
+    color: #ccc; /* Light color for descriptions */
+    text-align: center; /* Center align text for better visibility */
+}

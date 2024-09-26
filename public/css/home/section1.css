@@ -1,0 +1,124 @@
+/* Ensure the hero section covers full height */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the section */
+    z-index: -1; /* Ensure video stays behind other content */
+}
+
+/* Centering the content */
+.hero-text {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 0 20px; /* Responsive padding */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.country-code {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.flag {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Mobile input and button */
+.mobile-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 250px; /* Adjust input size */
+    max-width: 100%; /* Responsive on smaller screens */
+}
+
+.book-trial-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.book-trial-btn:hover {
+    background-color: #218838;
+}
+
+/* WhatsApp icon */
+.whatsapp-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2.5rem;
+    color: #25D366;
+}
+
+.whatsapp-icon:hover {
+    color: #1ebe5f;
+}
+
+/* Responsive adjustments for small screens */
+@media screen and (max-width: 768px) {
+    .hero-text {
+        padding-top: 10%;
+    }
+
+    .book-trial-btn {
+        font-size: 1rem;
+    }
+
+    .whatsapp-icon {
+        font-size: 2rem;
+    }
+
+    .mobile-input {
+        font-size: 1rem;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .book-trial-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .mobile-input {
+        font-size: 0.9rem;
+        width: 200px;
+    }
+
+    .whatsapp-icon {
+        font-size: 1.8rem;
+    }
+}

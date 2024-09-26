@@ -1,0 +1,106 @@
+.footer {
+    background-color: #000; /* Black background */
+    padding: 50px 0;
+    color: #fff; /* White text */
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo img {
+    max-width: 350px;
+  }
+  
+  .footer-description {
+    max-width: 700px;
+  }
+  
+  .footer-description p {
+    line-height: 1.6;
+    color: #fff; /* White text */
+    font-size: 22px;
+  }
+  
+  .footer-links .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .footer-links .column {
+    width: 19%; /* Adjusted width to fit 5 columns */
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Left align the list */
+  }
+  
+  .footer-links ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #fff; /* White text */
+    position: relative; /* For positioning the dot */
+    padding-left: 20px; /* Add padding to the left */
+  }
+  
+  .footer-links ul li:before {
+    content: "•";
+    color: #ffffff; /* Dot color */
+    margin-right: 5px;
+    font-size: 1.5em; /* Increase dot size */
+    position: absolute; /* Position the dot */
+    left: -2px; /* Align to the left */
+    top: -5px; /* Align to the top */
+  }
+  
+  .footer-social {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .footer-social ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+  }
+  
+  .footer-social ul li {
+    margin-right: 15px;
+  }
+  
+  .footer-social ul li a img {
+    width: 45px;
+  }
+  
+  .footer-cities {
+    text-align: center;
+    color: #fff; /* White text */
+  }
+  
+
+  
+  .footer-cities p {
+    margin: 10px 0;
+  }
+  
+  .large-cities {
+    font-size: 28px; /* Large size for major cities */
+  }
+  
+  .small-cities {
+    font-size: 20px; /* Smaller size for other cities */
+  }
+  
+  

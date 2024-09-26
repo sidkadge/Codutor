@@ -1,0 +1,199 @@
+.superstar-teacher {
+    padding: 50px 0;
+    background-color: #d1d1d1;
+}
+
+.heading {
+    text-align: left;
+    font-size: 55px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.teacher-intro {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.intro-left {
+    max-width: 40%;
+    text-align: left;
+}
+
+.intro-left h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.fun-info {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.fun-info li {
+    margin-bottom: 15px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 45px;
+}
+
+.fun-info li::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #333; /* Color for the dot */
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* .fun-info input[type="radio"] {
+    margin-right: 10px;
+} */
+
+.intro-right {
+    position: relative;
+}
+
+.circle-wrapper {
+    position: relative;
+}
+
+.circle-large {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    right: 30%;
+    margin-top: -80px;
+    margin-bottom: 120px;
+
+}
+
+.circle-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.teacher-info {
+    position: absolute; 
+    bottom: 13px;
+    left: 0;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+   
+}
+
+.circle-small {
+    width: 200px;
+    height: 200px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    position: absolute;
+    top: 95%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; /* To stack the h3 and p elements vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: #0b0a0a;
+}
+
+.circle-small h3 {
+    font-size: 30px;
+    padding: 0 5px 0px 5px;
+    color: #000;
+}
+
+.circle-small p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+
+
+
+.teacher-slider {
+    margin-bottom: 50px;
+}
+
+.slider-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-item {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.become-teacher-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.become-teacher-btn:hover {
+    background-color: #e04444;
+}
+.circles {
+    width: 120px;
+    height: 120px; 
+    background-color: #ff6e08;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px; 
+}
+.footer-cities {
+    text-align: center;
+    color: #fff; /* White text */
+  }
+  
+  .footer-cities p {
+    margin: 5px 0;
+  }
+  
+  .large-cities {
+    font-size: 18px; /* Large size for major cities */
+  }
+  
+  .small-cities {
+    font-size: 14px; /* Smaller size for other cities */
+  }
+  

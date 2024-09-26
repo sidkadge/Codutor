@@ -1,0 +1,111 @@
+/* Why Kids Should Learn Coding Section */
+.why-learn-coding {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.why-learn-coding h2 {
+    font-family: 'Proxima Nova', 'Poppins', Arial, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.coding-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.coding-images {
+    width: 45%; /* Adjust if needed */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center;
+}
+
+.coding-images img {
+    width: 625px;  /* Set width */
+    height: 452px; /* Set height */
+    object-fit: cover; /* Ensures the image covers the specified dimensions without distortion */
+    border-radius: 8px; /* Optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+}
+
+
+/* Right side shadow boxes - 2 boxes per row */
+.coding-boxes {
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 boxes per row */
+    gap: 40px 20px; /* Space between rows and columns */
+}
+
+/* Each shadow box */
+.coding-box {
+    position: relative;
+    padding: 20px;
+    width: 250px; /* Updated width */
+    height: 200px; /* Updated height */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.3); /* Shadow only below the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Circle for numbering - half inside and half outside the box */
+.coding-box .circle {
+    position: absolute;
+    top: -30px; /* Adjusted to center with larger circle */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px; /* Increased size */
+    height: 60px; /* Increased size */
+    background-color: #28a745;
+    color: white;
+    font-size: 1.8rem; /* Adjusted font size for larger circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 3D shadow effect for circles */
+}
+
+/* Text inside the shadow boxes */
+.coding-box p {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .coding-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .coding-images, .coding-boxes {
+        width: 100%;
+    }
+
+    .coding-boxes {
+        grid-template-columns: 1fr; /* 1 box per row for small screens */
+    }
+
+    .coding-box {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    .coding-box .circle {
+        width: 50px; /* Adjusted for smaller screens */
+        height: 50px; /* Adjusted for smaller screens */
+        top: -25px; /* Adjust circle position for smaller screens */
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+}

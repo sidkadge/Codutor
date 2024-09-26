@@ -1,0 +1,64 @@
+.tech-leaders-section {
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tech-leaders-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.tech-leaders-section p {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.leaders-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.leader {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.leader img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.explore-button {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff6f91, #ffeb3b);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background 0.3s;
+    font-weight: 600;
+}
+
+.explore-button:hover {
+    background: linear-gradient(90deg, #e64a4a, #e1c407);
+}
+
+@media (max-width: 768px) {
+    .tech-leaders-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .leaders-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .leader {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,92 @@
+.experience-games {
+    background-color: #282828; /* Section background color */
+    padding: 50px 0; /* Padding for the section */
+    text-align: center; /* Center align text */
+}
+
+.experience-games h2 {
+    color: white; /* Title color */
+    margin-bottom: 40px; /* Space below title */
+    font-size: 36px; /* Title size */
+}
+
+.games-row {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between cards */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.game-card {
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin: 10px; /* Margin around the card */
+    color: white; /* Text color */
+    width: 30%; /* Fixed width for each card */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    text-align: center; /* Center text */
+    position: relative; /* For positioning icons */
+}
+
+.icon-container {
+    margin-bottom: 15px; /* Space below the icon */
+}
+
+.icon {
+    font-size: 50px; /* Icon size */
+    color: white; /* Icon color */
+    display: block; /* Ensure the icon is centered above */
+}
+
+.game-image {
+    width: 100%; /* Full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for image */
+    margin-bottom: 10px; /* Space below image */
+}
+
+.input-option {
+    text-align: left; /* Align label and input to the left */
+    margin: 10px 0; /* Space above and below the input option */
+    margin-top: -20px;
+}
+
+.game-input {
+    width: calc(100% - 30px); /* Full width minus label width */
+    padding: 5px; /* Reduced padding for a line appearance */
+    border: none; /* Remove border */
+    border-bottom: 1px solid #ccc; /* Add only bottom border */
+    background: transparent; /* Make background transparent */
+   
+    outline: none; /* Remove default outline */
+}
+
+.game-input::placeholder {
+    color: #aaa; /* Placeholder color */
+}
+
+p {
+    color: #ccc; /* Description text color */
+    font-size: 14px; /* Description text size */
+}
+.button-container {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 30px; /* Space above the button */
+}
+
+.gradient-button {
+    display: inline-block; /* Make the button inline */
+    padding: 10px 50px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color */
+    font-size: 25px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    background: linear-gradient(45deg, #f06595, #ff6b6b, #cbce35); /* Gradient colors */
+    transition: background 0.3s ease; /* Smooth transition */
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, #ff4b4b, #e05678, #b48cfc); /* Darker gradient on hover */
+}
+

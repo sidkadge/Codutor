@@ -1,0 +1,110 @@
+.best-coding-course {
+    padding: 40px 20px;
+    background: #000; /* Set background to black */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.best-coding-course h2 {
+    text-align: center;
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #fff; /* Change heading color to white for contrast */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pricing-table {
+    background: #e98ac4; /* Keep the pricing table background */
+    border-radius: 10px;
+    flex: 1;
+    max-width: calc(25% - 20px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pricing-table:hover {
+    transform: translateY(-5px);
+}
+
+.head1 {
+    padding: 20px;
+    background: #cfa765;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.head2 {
+    padding: 20px;
+    background: #67d8bc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.head3 {
+    padding: 20px;
+    background: #819aad;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.head4 {
+    padding: 20px;
+    background: #fc654a4f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.head1 .head2 .head3 .head4 .title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff; /* Title color remains white */
+    text-align: center; /* Center title text */
+}
+
+.content {
+    padding: 20px;
+}
+
+.price {
+    font-size: 20px;
+    color: #000000; /* Change as needed for contrast */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+li i {
+    color: #27ae60;
+    margin-right: 10px;
+}
+
+.buy-now {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
