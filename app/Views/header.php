@@ -61,7 +61,7 @@
                 <img src="<?= base_url(); ?>public/assets/landImg/conductor.png" alt="Website Logo">
             </h1>
             
-            <a href="#" class="book-trial-btn">Book Free Trial</a>
+            <a href="<?php echo base_url(); ?>book-free-trail" class="book-trial-btn">Book Free Trial</a>
         </div>
     </nav>
 
